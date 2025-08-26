@@ -41,7 +41,7 @@ sort numbers.txt
 ipconfig getifaddr en0
 cat readme.txt
 wc -l data.csv
-grep -l -r -i error logs.txt
+grep -l -r -i error logs/
 tail -10 solution.sh
 chmod +x script.sh
 grep -i -r TODO *.py
