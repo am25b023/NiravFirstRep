@@ -7,7 +7,7 @@ ipconfig getifaddr en0
 cat readme.txt
 wc -l data.csv
 grep -l -r -i error logs/
-tail -10 solution.sh
+tail -10 app.log
 chmod +x script.sh
 grep -i -r TODO *.py
 history 20
